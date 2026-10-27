@@ -90,3 +90,13 @@ Reports & Analytics page; Donor Registry add/import/edit; Rewards tab; Settings 
 | State and visual review | Renamed RadiusExpanded to RadiusSelected; removed Expand Radius controls and stale “widened/expanded” copy. Matching/Empty still has Retry Search and now has the secondary View Empty Screening route from the prior patch. | Screenshots reviewed at 1440×1000. Default shows only 5 km selected; the selected-radius state keeps the same tier controls and summary. |
 | Figma identifiers | Radius mode collection `VariableCollectionId:197:1621`; modes `197:0` (5 km), `197:1` (10 km), `197:2` (15 km), `197:3` (20–25 km). | Matching Default `126:713`; Loading `126:899`; Empty `126:979`; Error `126:1059`; Paused `126:1139`; RadiusSelected `126:1219`; DonorsSelected `126:1299`. |
 | Prototype walkthrough | Route IDs and all four tier-to-mode mappings were inspected. Browser use remains disabled in Work settings. | Prototype-mode selection of 10/15/20–25 km has not been clicked through. |
+
+## (j) Dashboard collected-unit periods — 2026-10-27
+
+| Review area | Result | Evidence / remaining work |
+|---|---|---|
+| Screen location | The period selector is on Dashboard; Blood Requests has no collected-unit-period screen. | Matches FR-014 / UC-011, which place viewing collected units on the dashboard. |
+| Visible control | Replaced the misleading “This week” text/validation-error route with a three-option selector labeled “UNITS COLLECTED · ILLUSTRATIVE DEMO VALUES.” | Screenshot: [Dashboard with period selector](https://www.figma.com/api/mcp/asset/1cfe00ec-26d1-4692-a1c9-b2bd912e3f28.png). Dark mode retained. |
+| Period destinations and values | This month → Dashboard Default `16:2`, 286; Past 6 months → `209:2193`, 1,482; Past year → `209:2308`, 2,936. Every state shows its active option and a range-specific illustrative note. | Values are explicitly illustrative demo totals because the HTML source only contains weekly chart points and does not supply totals for these ranges. User approved illustrative totals (Q26). No calendar or rolling date boundaries are asserted. |
+| Structural route check | Each inactive period option has an ON_CLICK route to the matching frame; each state offers routes to both other periods. The selected option is intentionally inert. | Verified frame IDs, labels, totals, notes, and destinations in Figma. |
+| Source difference and prototype walkthrough | The HTML offers weekly/monthly donation-trend tabs, but has no past-six-month or past-year dataset. The new selector changes the collected-units KPI; the separate Donation activity chart retains its weekly context. | Only structural routes and screenshots were checked; prototype-mode interaction verification was not performed. |
