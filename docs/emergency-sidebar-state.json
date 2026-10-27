@@ -1,0 +1,4452 @@
+{
+  "sessionId": "8ff9c165-e34d-4a6a-b928-172a31d58d11",
+  "status": "sidebar-migrated",
+  "baseline": [
+    {
+      "id": "85:2",
+      "name": "Hospital/EmergencyRequest/Default",
+      "layoutMode": "NONE",
+      "left": [
+        {
+          "id": "85:3",
+          "name": "Hospital sidebar",
+          "type": "RECTANGLE",
+          "x": 0,
+          "y": 0,
+          "w": 220,
+          "h": 1000,
+          "reactions": []
+        },
+        {
+          "id": "85:4",
+          "name": "Dugo+ logo tile",
+          "type": "RECTANGLE",
+          "x": 21,
+          "y": 17,
+          "w": 40,
+          "h": 40,
+          "reactions": []
+        },
+        {
+          "id": "85:5",
+          "name": "Dugo+ logo",
+          "type": "RECTANGLE",
+          "x": 24,
+          "y": 20,
+          "w": 34,
+          "h": 34,
+          "reactions": []
+        },
+        {
+          "id": "85:6",
+          "name": "Brand wordmark",
+          "type": "TEXT",
+          "x": 68,
+          "y": 23,
+          "w": 128,
+          "h": 29.399999618530273,
+          "text": "Dugo+",
+          "reactions": []
+        },
+        {
+          "id": "85:7",
+          "name": "Hospital page title",
+          "type": "TEXT",
+          "x": 24,
+          "y": 62,
+          "w": 172,
+          "h": 15.399999618530273,
+          "text": "dugo+ hospital",
+          "reactions": []
+        },
+        {
+          "id": "85:8",
+          "name": "Sidebar role",
+          "type": "TEXT",
+          "x": 24,
+          "y": 119,
+          "w": 172,
+          "h": 15,
+          "text": "HOSPITAL WORKSPACE",
+          "reactions": []
+        },
+        {
+          "id": "85:9",
+          "name": "Navigation/Dashboard",
+          "type": "FRAME",
+          "x": 16,
+          "y": 148,
+          "w": 188,
+          "h": 36,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "16:2",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.23999999463558197
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": true
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "16:2",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.23999999463558197
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": true
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "85:12",
+          "name": "Navigation/Blood Requests",
+          "type": "FRAME",
+          "x": 16,
+          "y": 189,
+          "w": 188,
+          "h": 36,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "54:2",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.23999999463558197
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": true
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "54:2",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.23999999463558197
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": true
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "85:15",
+          "name": "Navigation/Matching",
+          "type": "FRAME",
+          "x": 16,
+          "y": 230,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:18",
+          "name": "Navigation/Inventory",
+          "type": "FRAME",
+          "x": 16,
+          "y": 271,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:21",
+          "name": "Navigation/Donations",
+          "type": "FRAME",
+          "x": 16,
+          "y": 312,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:24",
+          "name": "Navigation/Audit Log",
+          "type": "FRAME",
+          "x": 16,
+          "y": 353,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:27",
+          "name": "Navigation/Hospital Profile",
+          "type": "FRAME",
+          "x": 16,
+          "y": 435,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:30",
+          "name": "Navigation/Location",
+          "type": "FRAME",
+          "x": 16,
+          "y": 476,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:33",
+          "name": "Sidebar footer rule",
+          "type": "RECTANGLE",
+          "x": 16,
+          "y": 568,
+          "w": 188,
+          "h": 1,
+          "reactions": []
+        },
+        {
+          "id": "85:34",
+          "name": "Signed in label",
+          "type": "TEXT",
+          "x": 24,
+          "y": 590,
+          "w": 160,
+          "h": 15,
+          "text": "SIGNED IN AS",
+          "reactions": []
+        },
+        {
+          "id": "85:35",
+          "name": "Staff profile",
+          "type": "TEXT",
+          "x": 24,
+          "y": 612,
+          "w": 172,
+          "h": 18.200000762939453,
+          "text": "Hospital Staff",
+          "reactions": []
+        },
+        {
+          "id": "85:36",
+          "name": "Sign out",
+          "type": "TEXT",
+          "x": 24,
+          "y": 660,
+          "w": 172,
+          "h": 16.100000381469727,
+          "text": "Sign out  →",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "4:2",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_IN_AND_OUT"
+                  },
+                  "duration": 0.20000000298023224
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": true
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "4:2",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_IN_AND_OUT"
+                    },
+                    "duration": 0.20000000298023224
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": true
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ],
+      "nestedLeftCount": [
+        {
+          "id": "85:9",
+          "count": 2
+        },
+        {
+          "id": "85:12",
+          "count": 2
+        },
+        {
+          "id": "85:15",
+          "count": 2
+        },
+        {
+          "id": "85:18",
+          "count": 2
+        },
+        {
+          "id": "85:21",
+          "count": 2
+        },
+        {
+          "id": "85:24",
+          "count": 2
+        },
+        {
+          "id": "85:27",
+          "count": 2
+        },
+        {
+          "id": "85:30",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "85:89",
+      "name": "Hospital/EmergencyRequest/Empty",
+      "layoutMode": "NONE",
+      "left": [
+        {
+          "id": "85:90",
+          "name": "Hospital sidebar",
+          "type": "RECTANGLE",
+          "x": 0,
+          "y": 0,
+          "w": 220,
+          "h": 1000,
+          "reactions": []
+        },
+        {
+          "id": "85:91",
+          "name": "Dugo+ logo tile",
+          "type": "RECTANGLE",
+          "x": 21,
+          "y": 17,
+          "w": 40,
+          "h": 40,
+          "reactions": []
+        },
+        {
+          "id": "85:92",
+          "name": "Dugo+ logo",
+          "type": "RECTANGLE",
+          "x": 24,
+          "y": 20,
+          "w": 34,
+          "h": 34,
+          "reactions": []
+        },
+        {
+          "id": "85:93",
+          "name": "Brand wordmark",
+          "type": "TEXT",
+          "x": 68,
+          "y": 23,
+          "w": 128,
+          "h": 29.399999618530273,
+          "text": "Dugo+",
+          "reactions": []
+        },
+        {
+          "id": "85:94",
+          "name": "Hospital page title",
+          "type": "TEXT",
+          "x": 24,
+          "y": 62,
+          "w": 172,
+          "h": 15.399999618530273,
+          "text": "dugo+ hospital",
+          "reactions": []
+        },
+        {
+          "id": "85:95",
+          "name": "Sidebar role",
+          "type": "TEXT",
+          "x": 24,
+          "y": 119,
+          "w": 172,
+          "h": 15,
+          "text": "HOSPITAL WORKSPACE",
+          "reactions": []
+        },
+        {
+          "id": "85:96",
+          "name": "Navigation/Dashboard",
+          "type": "FRAME",
+          "x": 16,
+          "y": 148,
+          "w": 188,
+          "h": 36,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "16:2",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.23999999463558197
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": true
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "16:2",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.23999999463558197
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": true
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "85:99",
+          "name": "Navigation/Blood Requests",
+          "type": "FRAME",
+          "x": 16,
+          "y": 189,
+          "w": 188,
+          "h": 36,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "54:2",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.23999999463558197
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": true
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "54:2",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.23999999463558197
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": true
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "85:102",
+          "name": "Navigation/Matching",
+          "type": "FRAME",
+          "x": 16,
+          "y": 230,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:105",
+          "name": "Navigation/Inventory",
+          "type": "FRAME",
+          "x": 16,
+          "y": 271,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:108",
+          "name": "Navigation/Donations",
+          "type": "FRAME",
+          "x": 16,
+          "y": 312,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:111",
+          "name": "Navigation/Audit Log",
+          "type": "FRAME",
+          "x": 16,
+          "y": 353,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:114",
+          "name": "Navigation/Hospital Profile",
+          "type": "FRAME",
+          "x": 16,
+          "y": 435,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:117",
+          "name": "Navigation/Location",
+          "type": "FRAME",
+          "x": 16,
+          "y": 476,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:120",
+          "name": "Sidebar footer rule",
+          "type": "RECTANGLE",
+          "x": 16,
+          "y": 568,
+          "w": 188,
+          "h": 1,
+          "reactions": []
+        },
+        {
+          "id": "85:121",
+          "name": "Signed in label",
+          "type": "TEXT",
+          "x": 24,
+          "y": 590,
+          "w": 160,
+          "h": 15,
+          "text": "SIGNED IN AS",
+          "reactions": []
+        },
+        {
+          "id": "85:122",
+          "name": "Staff profile",
+          "type": "TEXT",
+          "x": 24,
+          "y": 612,
+          "w": 172,
+          "h": 18.200000762939453,
+          "text": "Hospital Staff",
+          "reactions": []
+        },
+        {
+          "id": "85:123",
+          "name": "Sign out",
+          "type": "TEXT",
+          "x": 24,
+          "y": 660,
+          "w": 172,
+          "h": 16.100000381469727,
+          "text": "Sign out  →",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "4:2",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_IN_AND_OUT"
+                  },
+                  "duration": 0.20000000298023224
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": true
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "4:2",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_IN_AND_OUT"
+                    },
+                    "duration": 0.20000000298023224
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": true
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ],
+      "nestedLeftCount": [
+        {
+          "id": "85:96",
+          "count": 2
+        },
+        {
+          "id": "85:99",
+          "count": 2
+        },
+        {
+          "id": "85:102",
+          "count": 2
+        },
+        {
+          "id": "85:105",
+          "count": 2
+        },
+        {
+          "id": "85:108",
+          "count": 2
+        },
+        {
+          "id": "85:111",
+          "count": 2
+        },
+        {
+          "id": "85:114",
+          "count": 2
+        },
+        {
+          "id": "85:117",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "85:145",
+      "name": "Hospital/EmergencyRequest/Error",
+      "layoutMode": "NONE",
+      "left": [
+        {
+          "id": "85:146",
+          "name": "Hospital sidebar",
+          "type": "RECTANGLE",
+          "x": 0,
+          "y": 0,
+          "w": 220,
+          "h": 1000,
+          "reactions": []
+        },
+        {
+          "id": "85:147",
+          "name": "Dugo+ logo tile",
+          "type": "RECTANGLE",
+          "x": 21,
+          "y": 17,
+          "w": 40,
+          "h": 40,
+          "reactions": []
+        },
+        {
+          "id": "85:148",
+          "name": "Dugo+ logo",
+          "type": "RECTANGLE",
+          "x": 24,
+          "y": 20,
+          "w": 34,
+          "h": 34,
+          "reactions": []
+        },
+        {
+          "id": "85:149",
+          "name": "Brand wordmark",
+          "type": "TEXT",
+          "x": 68,
+          "y": 23,
+          "w": 128,
+          "h": 29.399999618530273,
+          "text": "Dugo+",
+          "reactions": []
+        },
+        {
+          "id": "85:150",
+          "name": "Hospital page title",
+          "type": "TEXT",
+          "x": 24,
+          "y": 62,
+          "w": 172,
+          "h": 15.399999618530273,
+          "text": "dugo+ hospital",
+          "reactions": []
+        },
+        {
+          "id": "85:151",
+          "name": "Sidebar role",
+          "type": "TEXT",
+          "x": 24,
+          "y": 119,
+          "w": 172,
+          "h": 15,
+          "text": "HOSPITAL WORKSPACE",
+          "reactions": []
+        },
+        {
+          "id": "85:152",
+          "name": "Navigation/Dashboard",
+          "type": "FRAME",
+          "x": 16,
+          "y": 148,
+          "w": 188,
+          "h": 36,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "16:2",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.23999999463558197
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": true
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "16:2",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.23999999463558197
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": true
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "85:155",
+          "name": "Navigation/Blood Requests",
+          "type": "FRAME",
+          "x": 16,
+          "y": 189,
+          "w": 188,
+          "h": 36,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "54:2",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.23999999463558197
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": true
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "54:2",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.23999999463558197
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": true
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "85:158",
+          "name": "Navigation/Matching",
+          "type": "FRAME",
+          "x": 16,
+          "y": 230,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:161",
+          "name": "Navigation/Inventory",
+          "type": "FRAME",
+          "x": 16,
+          "y": 271,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:164",
+          "name": "Navigation/Donations",
+          "type": "FRAME",
+          "x": 16,
+          "y": 312,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:167",
+          "name": "Navigation/Audit Log",
+          "type": "FRAME",
+          "x": 16,
+          "y": 353,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:170",
+          "name": "Navigation/Hospital Profile",
+          "type": "FRAME",
+          "x": 16,
+          "y": 435,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:173",
+          "name": "Navigation/Location",
+          "type": "FRAME",
+          "x": 16,
+          "y": 476,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:176",
+          "name": "Sidebar footer rule",
+          "type": "RECTANGLE",
+          "x": 16,
+          "y": 568,
+          "w": 188,
+          "h": 1,
+          "reactions": []
+        },
+        {
+          "id": "85:177",
+          "name": "Signed in label",
+          "type": "TEXT",
+          "x": 24,
+          "y": 590,
+          "w": 160,
+          "h": 15,
+          "text": "SIGNED IN AS",
+          "reactions": []
+        },
+        {
+          "id": "85:178",
+          "name": "Staff profile",
+          "type": "TEXT",
+          "x": 24,
+          "y": 612,
+          "w": 172,
+          "h": 18.200000762939453,
+          "text": "Hospital Staff",
+          "reactions": []
+        },
+        {
+          "id": "85:179",
+          "name": "Sign out",
+          "type": "TEXT",
+          "x": 24,
+          "y": 660,
+          "w": 172,
+          "h": 16.100000381469727,
+          "text": "Sign out  →",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "4:2",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_IN_AND_OUT"
+                  },
+                  "duration": 0.20000000298023224
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": true
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "4:2",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_IN_AND_OUT"
+                    },
+                    "duration": 0.20000000298023224
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": true
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ],
+      "nestedLeftCount": [
+        {
+          "id": "85:152",
+          "count": 2
+        },
+        {
+          "id": "85:155",
+          "count": 2
+        },
+        {
+          "id": "85:158",
+          "count": 2
+        },
+        {
+          "id": "85:161",
+          "count": 2
+        },
+        {
+          "id": "85:164",
+          "count": 2
+        },
+        {
+          "id": "85:167",
+          "count": 2
+        },
+        {
+          "id": "85:170",
+          "count": 2
+        },
+        {
+          "id": "85:173",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "85:198",
+      "name": "Hospital/EmergencyRequest/Loading",
+      "layoutMode": "NONE",
+      "left": [
+        {
+          "id": "85:199",
+          "name": "Hospital sidebar",
+          "type": "RECTANGLE",
+          "x": 0,
+          "y": 0,
+          "w": 220,
+          "h": 1000,
+          "reactions": []
+        },
+        {
+          "id": "85:200",
+          "name": "Dugo+ logo tile",
+          "type": "RECTANGLE",
+          "x": 21,
+          "y": 17,
+          "w": 40,
+          "h": 40,
+          "reactions": []
+        },
+        {
+          "id": "85:201",
+          "name": "Dugo+ logo",
+          "type": "RECTANGLE",
+          "x": 24,
+          "y": 20,
+          "w": 34,
+          "h": 34,
+          "reactions": []
+        },
+        {
+          "id": "85:202",
+          "name": "Brand wordmark",
+          "type": "TEXT",
+          "x": 68,
+          "y": 23,
+          "w": 128,
+          "h": 29.399999618530273,
+          "text": "Dugo+",
+          "reactions": []
+        },
+        {
+          "id": "85:203",
+          "name": "Hospital page title",
+          "type": "TEXT",
+          "x": 24,
+          "y": 62,
+          "w": 172,
+          "h": 15.399999618530273,
+          "text": "dugo+ hospital",
+          "reactions": []
+        },
+        {
+          "id": "85:204",
+          "name": "Sidebar role",
+          "type": "TEXT",
+          "x": 24,
+          "y": 119,
+          "w": 172,
+          "h": 15,
+          "text": "HOSPITAL WORKSPACE",
+          "reactions": []
+        },
+        {
+          "id": "85:205",
+          "name": "Navigation/Dashboard",
+          "type": "FRAME",
+          "x": 16,
+          "y": 148,
+          "w": 188,
+          "h": 36,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "16:2",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.23999999463558197
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": true
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "16:2",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.23999999463558197
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": true
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "85:208",
+          "name": "Navigation/Blood Requests",
+          "type": "FRAME",
+          "x": 16,
+          "y": 189,
+          "w": 188,
+          "h": 36,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "54:2",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.23999999463558197
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": true
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "54:2",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.23999999463558197
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": true
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "85:211",
+          "name": "Navigation/Matching",
+          "type": "FRAME",
+          "x": 16,
+          "y": 230,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:214",
+          "name": "Navigation/Inventory",
+          "type": "FRAME",
+          "x": 16,
+          "y": 271,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:217",
+          "name": "Navigation/Donations",
+          "type": "FRAME",
+          "x": 16,
+          "y": 312,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:220",
+          "name": "Navigation/Audit Log",
+          "type": "FRAME",
+          "x": 16,
+          "y": 353,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:223",
+          "name": "Navigation/Hospital Profile",
+          "type": "FRAME",
+          "x": 16,
+          "y": 435,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:226",
+          "name": "Navigation/Location",
+          "type": "FRAME",
+          "x": 16,
+          "y": 476,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:229",
+          "name": "Sidebar footer rule",
+          "type": "RECTANGLE",
+          "x": 16,
+          "y": 568,
+          "w": 188,
+          "h": 1,
+          "reactions": []
+        },
+        {
+          "id": "85:230",
+          "name": "Signed in label",
+          "type": "TEXT",
+          "x": 24,
+          "y": 590,
+          "w": 160,
+          "h": 15,
+          "text": "SIGNED IN AS",
+          "reactions": []
+        },
+        {
+          "id": "85:231",
+          "name": "Staff profile",
+          "type": "TEXT",
+          "x": 24,
+          "y": 612,
+          "w": 172,
+          "h": 18.200000762939453,
+          "text": "Hospital Staff",
+          "reactions": []
+        },
+        {
+          "id": "85:232",
+          "name": "Sign out",
+          "type": "TEXT",
+          "x": 24,
+          "y": 660,
+          "w": 172,
+          "h": 16.100000381469727,
+          "text": "Sign out  →",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "4:2",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_IN_AND_OUT"
+                  },
+                  "duration": 0.20000000298023224
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": true
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "4:2",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_IN_AND_OUT"
+                    },
+                    "duration": 0.20000000298023224
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": true
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ],
+      "nestedLeftCount": [
+        {
+          "id": "85:205",
+          "count": 2
+        },
+        {
+          "id": "85:208",
+          "count": 2
+        },
+        {
+          "id": "85:211",
+          "count": 2
+        },
+        {
+          "id": "85:214",
+          "count": 2
+        },
+        {
+          "id": "85:217",
+          "count": 2
+        },
+        {
+          "id": "85:220",
+          "count": 2
+        },
+        {
+          "id": "85:223",
+          "count": 2
+        },
+        {
+          "id": "85:226",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "85:250",
+      "name": "Hospital/EmergencyRequest/ValidationError",
+      "layoutMode": "NONE",
+      "left": [
+        {
+          "id": "85:251",
+          "name": "Hospital sidebar",
+          "type": "RECTANGLE",
+          "x": 0,
+          "y": 0,
+          "w": 220,
+          "h": 1000,
+          "reactions": []
+        },
+        {
+          "id": "85:252",
+          "name": "Dugo+ logo tile",
+          "type": "RECTANGLE",
+          "x": 21,
+          "y": 17,
+          "w": 40,
+          "h": 40,
+          "reactions": []
+        },
+        {
+          "id": "85:253",
+          "name": "Dugo+ logo",
+          "type": "RECTANGLE",
+          "x": 24,
+          "y": 20,
+          "w": 34,
+          "h": 34,
+          "reactions": []
+        },
+        {
+          "id": "85:254",
+          "name": "Brand wordmark",
+          "type": "TEXT",
+          "x": 68,
+          "y": 23,
+          "w": 128,
+          "h": 29.399999618530273,
+          "text": "Dugo+",
+          "reactions": []
+        },
+        {
+          "id": "85:255",
+          "name": "Hospital page title",
+          "type": "TEXT",
+          "x": 24,
+          "y": 62,
+          "w": 172,
+          "h": 15.399999618530273,
+          "text": "dugo+ hospital",
+          "reactions": []
+        },
+        {
+          "id": "85:256",
+          "name": "Sidebar role",
+          "type": "TEXT",
+          "x": 24,
+          "y": 119,
+          "w": 172,
+          "h": 15,
+          "text": "HOSPITAL WORKSPACE",
+          "reactions": []
+        },
+        {
+          "id": "85:257",
+          "name": "Navigation/Dashboard",
+          "type": "FRAME",
+          "x": 16,
+          "y": 148,
+          "w": 188,
+          "h": 36,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "16:2",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.23999999463558197
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": true
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "16:2",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.23999999463558197
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": true
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "85:260",
+          "name": "Navigation/Blood Requests",
+          "type": "FRAME",
+          "x": 16,
+          "y": 189,
+          "w": 188,
+          "h": 36,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "54:2",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.23999999463558197
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": true
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "54:2",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.23999999463558197
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": true
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "85:263",
+          "name": "Navigation/Matching",
+          "type": "FRAME",
+          "x": 16,
+          "y": 230,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:266",
+          "name": "Navigation/Inventory",
+          "type": "FRAME",
+          "x": 16,
+          "y": 271,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:269",
+          "name": "Navigation/Donations",
+          "type": "FRAME",
+          "x": 16,
+          "y": 312,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:272",
+          "name": "Navigation/Audit Log",
+          "type": "FRAME",
+          "x": 16,
+          "y": 353,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:275",
+          "name": "Navigation/Hospital Profile",
+          "type": "FRAME",
+          "x": 16,
+          "y": 435,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:278",
+          "name": "Navigation/Location",
+          "type": "FRAME",
+          "x": 16,
+          "y": 476,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:281",
+          "name": "Sidebar footer rule",
+          "type": "RECTANGLE",
+          "x": 16,
+          "y": 568,
+          "w": 188,
+          "h": 1,
+          "reactions": []
+        },
+        {
+          "id": "85:282",
+          "name": "Signed in label",
+          "type": "TEXT",
+          "x": 24,
+          "y": 590,
+          "w": 160,
+          "h": 15,
+          "text": "SIGNED IN AS",
+          "reactions": []
+        },
+        {
+          "id": "85:283",
+          "name": "Staff profile",
+          "type": "TEXT",
+          "x": 24,
+          "y": 612,
+          "w": 172,
+          "h": 18.200000762939453,
+          "text": "Hospital Staff",
+          "reactions": []
+        },
+        {
+          "id": "85:284",
+          "name": "Sign out",
+          "type": "TEXT",
+          "x": 24,
+          "y": 660,
+          "w": 172,
+          "h": 16.100000381469727,
+          "text": "Sign out  →",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "4:2",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_IN_AND_OUT"
+                  },
+                  "duration": 0.20000000298023224
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": true
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "4:2",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_IN_AND_OUT"
+                    },
+                    "duration": 0.20000000298023224
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": true
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ],
+      "nestedLeftCount": [
+        {
+          "id": "85:257",
+          "count": 2
+        },
+        {
+          "id": "85:260",
+          "count": 2
+        },
+        {
+          "id": "85:263",
+          "count": 2
+        },
+        {
+          "id": "85:266",
+          "count": 2
+        },
+        {
+          "id": "85:269",
+          "count": 2
+        },
+        {
+          "id": "85:272",
+          "count": 2
+        },
+        {
+          "id": "85:275",
+          "count": 2
+        },
+        {
+          "id": "85:278",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "85:336",
+      "name": "Hospital/EmergencyRequest/RequestDraft",
+      "layoutMode": "NONE",
+      "left": [
+        {
+          "id": "85:337",
+          "name": "Hospital sidebar",
+          "type": "RECTANGLE",
+          "x": 0,
+          "y": 0,
+          "w": 220,
+          "h": 1000,
+          "reactions": []
+        },
+        {
+          "id": "85:338",
+          "name": "Dugo+ logo tile",
+          "type": "RECTANGLE",
+          "x": 21,
+          "y": 17,
+          "w": 40,
+          "h": 40,
+          "reactions": []
+        },
+        {
+          "id": "85:339",
+          "name": "Dugo+ logo",
+          "type": "RECTANGLE",
+          "x": 24,
+          "y": 20,
+          "w": 34,
+          "h": 34,
+          "reactions": []
+        },
+        {
+          "id": "85:340",
+          "name": "Brand wordmark",
+          "type": "TEXT",
+          "x": 68,
+          "y": 23,
+          "w": 128,
+          "h": 29.399999618530273,
+          "text": "Dugo+",
+          "reactions": []
+        },
+        {
+          "id": "85:341",
+          "name": "Hospital page title",
+          "type": "TEXT",
+          "x": 24,
+          "y": 62,
+          "w": 172,
+          "h": 15.399999618530273,
+          "text": "dugo+ hospital",
+          "reactions": []
+        },
+        {
+          "id": "85:342",
+          "name": "Sidebar role",
+          "type": "TEXT",
+          "x": 24,
+          "y": 119,
+          "w": 172,
+          "h": 15,
+          "text": "HOSPITAL WORKSPACE",
+          "reactions": []
+        },
+        {
+          "id": "85:343",
+          "name": "Navigation/Dashboard",
+          "type": "FRAME",
+          "x": 16,
+          "y": 148,
+          "w": 188,
+          "h": 36,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "16:2",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.23999999463558197
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": true
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "16:2",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.23999999463558197
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": true
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "85:346",
+          "name": "Navigation/Blood Requests",
+          "type": "FRAME",
+          "x": 16,
+          "y": 189,
+          "w": 188,
+          "h": 36,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "54:2",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.23999999463558197
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": true
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "54:2",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.23999999463558197
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": true
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "85:349",
+          "name": "Navigation/Matching",
+          "type": "FRAME",
+          "x": 16,
+          "y": 230,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:352",
+          "name": "Navigation/Inventory",
+          "type": "FRAME",
+          "x": 16,
+          "y": 271,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:355",
+          "name": "Navigation/Donations",
+          "type": "FRAME",
+          "x": 16,
+          "y": 312,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:358",
+          "name": "Navigation/Audit Log",
+          "type": "FRAME",
+          "x": 16,
+          "y": 353,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:361",
+          "name": "Navigation/Hospital Profile",
+          "type": "FRAME",
+          "x": 16,
+          "y": 435,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:364",
+          "name": "Navigation/Location",
+          "type": "FRAME",
+          "x": 16,
+          "y": 476,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:367",
+          "name": "Sidebar footer rule",
+          "type": "RECTANGLE",
+          "x": 16,
+          "y": 568,
+          "w": 188,
+          "h": 1,
+          "reactions": []
+        },
+        {
+          "id": "85:368",
+          "name": "Signed in label",
+          "type": "TEXT",
+          "x": 24,
+          "y": 590,
+          "w": 160,
+          "h": 15,
+          "text": "SIGNED IN AS",
+          "reactions": []
+        },
+        {
+          "id": "85:369",
+          "name": "Staff profile",
+          "type": "TEXT",
+          "x": 24,
+          "y": 612,
+          "w": 172,
+          "h": 18.200000762939453,
+          "text": "Hospital Staff",
+          "reactions": []
+        },
+        {
+          "id": "85:370",
+          "name": "Sign out",
+          "type": "TEXT",
+          "x": 24,
+          "y": 660,
+          "w": 172,
+          "h": 16.100000381469727,
+          "text": "Sign out  →",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "4:2",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_IN_AND_OUT"
+                  },
+                  "duration": 0.20000000298023224
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": true
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "4:2",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_IN_AND_OUT"
+                    },
+                    "duration": 0.20000000298023224
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": true
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ],
+      "nestedLeftCount": [
+        {
+          "id": "85:343",
+          "count": 2
+        },
+        {
+          "id": "85:346",
+          "count": 2
+        },
+        {
+          "id": "85:349",
+          "count": 2
+        },
+        {
+          "id": "85:352",
+          "count": 2
+        },
+        {
+          "id": "85:355",
+          "count": 2
+        },
+        {
+          "id": "85:358",
+          "count": 2
+        },
+        {
+          "id": "85:361",
+          "count": 2
+        },
+        {
+          "id": "85:364",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "85:423",
+      "name": "Hospital/EmergencyRequest/ConsentMissing",
+      "layoutMode": "NONE",
+      "left": [
+        {
+          "id": "85:424",
+          "name": "Hospital sidebar",
+          "type": "RECTANGLE",
+          "x": 0,
+          "y": 0,
+          "w": 220,
+          "h": 1000,
+          "reactions": []
+        },
+        {
+          "id": "85:425",
+          "name": "Dugo+ logo tile",
+          "type": "RECTANGLE",
+          "x": 21,
+          "y": 17,
+          "w": 40,
+          "h": 40,
+          "reactions": []
+        },
+        {
+          "id": "85:426",
+          "name": "Dugo+ logo",
+          "type": "RECTANGLE",
+          "x": 24,
+          "y": 20,
+          "w": 34,
+          "h": 34,
+          "reactions": []
+        },
+        {
+          "id": "85:427",
+          "name": "Brand wordmark",
+          "type": "TEXT",
+          "x": 68,
+          "y": 23,
+          "w": 128,
+          "h": 29.399999618530273,
+          "text": "Dugo+",
+          "reactions": []
+        },
+        {
+          "id": "85:428",
+          "name": "Hospital page title",
+          "type": "TEXT",
+          "x": 24,
+          "y": 62,
+          "w": 172,
+          "h": 15.399999618530273,
+          "text": "dugo+ hospital",
+          "reactions": []
+        },
+        {
+          "id": "85:429",
+          "name": "Sidebar role",
+          "type": "TEXT",
+          "x": 24,
+          "y": 119,
+          "w": 172,
+          "h": 15,
+          "text": "HOSPITAL WORKSPACE",
+          "reactions": []
+        },
+        {
+          "id": "85:430",
+          "name": "Navigation/Dashboard",
+          "type": "FRAME",
+          "x": 16,
+          "y": 148,
+          "w": 188,
+          "h": 36,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "16:2",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.23999999463558197
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": true
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "16:2",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.23999999463558197
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": true
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "85:433",
+          "name": "Navigation/Blood Requests",
+          "type": "FRAME",
+          "x": 16,
+          "y": 189,
+          "w": 188,
+          "h": 36,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "54:2",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.23999999463558197
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": true
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "54:2",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.23999999463558197
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": true
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "85:436",
+          "name": "Navigation/Matching",
+          "type": "FRAME",
+          "x": 16,
+          "y": 230,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:439",
+          "name": "Navigation/Inventory",
+          "type": "FRAME",
+          "x": 16,
+          "y": 271,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:442",
+          "name": "Navigation/Donations",
+          "type": "FRAME",
+          "x": 16,
+          "y": 312,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:445",
+          "name": "Navigation/Audit Log",
+          "type": "FRAME",
+          "x": 16,
+          "y": 353,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:448",
+          "name": "Navigation/Hospital Profile",
+          "type": "FRAME",
+          "x": 16,
+          "y": 435,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:451",
+          "name": "Navigation/Location",
+          "type": "FRAME",
+          "x": 16,
+          "y": 476,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:454",
+          "name": "Sidebar footer rule",
+          "type": "RECTANGLE",
+          "x": 16,
+          "y": 568,
+          "w": 188,
+          "h": 1,
+          "reactions": []
+        },
+        {
+          "id": "85:455",
+          "name": "Signed in label",
+          "type": "TEXT",
+          "x": 24,
+          "y": 590,
+          "w": 160,
+          "h": 15,
+          "text": "SIGNED IN AS",
+          "reactions": []
+        },
+        {
+          "id": "85:456",
+          "name": "Staff profile",
+          "type": "TEXT",
+          "x": 24,
+          "y": 612,
+          "w": 172,
+          "h": 18.200000762939453,
+          "text": "Hospital Staff",
+          "reactions": []
+        },
+        {
+          "id": "85:457",
+          "name": "Sign out",
+          "type": "TEXT",
+          "x": 24,
+          "y": 660,
+          "w": 172,
+          "h": 16.100000381469727,
+          "text": "Sign out  →",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "4:2",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_IN_AND_OUT"
+                  },
+                  "duration": 0.20000000298023224
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": true
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "4:2",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_IN_AND_OUT"
+                    },
+                    "duration": 0.20000000298023224
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": true
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ],
+      "nestedLeftCount": [
+        {
+          "id": "85:430",
+          "count": 2
+        },
+        {
+          "id": "85:433",
+          "count": 2
+        },
+        {
+          "id": "85:436",
+          "count": 2
+        },
+        {
+          "id": "85:439",
+          "count": 2
+        },
+        {
+          "id": "85:442",
+          "count": 2
+        },
+        {
+          "id": "85:445",
+          "count": 2
+        },
+        {
+          "id": "85:448",
+          "count": 2
+        },
+        {
+          "id": "85:451",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "85:510",
+      "name": "Hospital/EmergencyRequest/RequestReady",
+      "layoutMode": "NONE",
+      "left": [
+        {
+          "id": "85:511",
+          "name": "Hospital sidebar",
+          "type": "RECTANGLE",
+          "x": 0,
+          "y": 0,
+          "w": 220,
+          "h": 1000,
+          "reactions": []
+        },
+        {
+          "id": "85:512",
+          "name": "Dugo+ logo tile",
+          "type": "RECTANGLE",
+          "x": 21,
+          "y": 17,
+          "w": 40,
+          "h": 40,
+          "reactions": []
+        },
+        {
+          "id": "85:513",
+          "name": "Dugo+ logo",
+          "type": "RECTANGLE",
+          "x": 24,
+          "y": 20,
+          "w": 34,
+          "h": 34,
+          "reactions": []
+        },
+        {
+          "id": "85:514",
+          "name": "Brand wordmark",
+          "type": "TEXT",
+          "x": 68,
+          "y": 23,
+          "w": 128,
+          "h": 29.399999618530273,
+          "text": "Dugo+",
+          "reactions": []
+        },
+        {
+          "id": "85:515",
+          "name": "Hospital page title",
+          "type": "TEXT",
+          "x": 24,
+          "y": 62,
+          "w": 172,
+          "h": 15.399999618530273,
+          "text": "dugo+ hospital",
+          "reactions": []
+        },
+        {
+          "id": "85:516",
+          "name": "Sidebar role",
+          "type": "TEXT",
+          "x": 24,
+          "y": 119,
+          "w": 172,
+          "h": 15,
+          "text": "HOSPITAL WORKSPACE",
+          "reactions": []
+        },
+        {
+          "id": "85:517",
+          "name": "Navigation/Dashboard",
+          "type": "FRAME",
+          "x": 16,
+          "y": 148,
+          "w": 188,
+          "h": 36,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "16:2",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.23999999463558197
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": true
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "16:2",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.23999999463558197
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": true
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "85:520",
+          "name": "Navigation/Blood Requests",
+          "type": "FRAME",
+          "x": 16,
+          "y": 189,
+          "w": 188,
+          "h": 36,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "54:2",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.23999999463558197
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": true
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "54:2",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.23999999463558197
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": true
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "85:523",
+          "name": "Navigation/Matching",
+          "type": "FRAME",
+          "x": 16,
+          "y": 230,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:526",
+          "name": "Navigation/Inventory",
+          "type": "FRAME",
+          "x": 16,
+          "y": 271,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:529",
+          "name": "Navigation/Donations",
+          "type": "FRAME",
+          "x": 16,
+          "y": 312,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:532",
+          "name": "Navigation/Audit Log",
+          "type": "FRAME",
+          "x": 16,
+          "y": 353,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:535",
+          "name": "Navigation/Hospital Profile",
+          "type": "FRAME",
+          "x": 16,
+          "y": 435,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:538",
+          "name": "Navigation/Location",
+          "type": "FRAME",
+          "x": 16,
+          "y": 476,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:541",
+          "name": "Sidebar footer rule",
+          "type": "RECTANGLE",
+          "x": 16,
+          "y": 568,
+          "w": 188,
+          "h": 1,
+          "reactions": []
+        },
+        {
+          "id": "85:542",
+          "name": "Signed in label",
+          "type": "TEXT",
+          "x": 24,
+          "y": 590,
+          "w": 160,
+          "h": 15,
+          "text": "SIGNED IN AS",
+          "reactions": []
+        },
+        {
+          "id": "85:543",
+          "name": "Staff profile",
+          "type": "TEXT",
+          "x": 24,
+          "y": 612,
+          "w": 172,
+          "h": 18.200000762939453,
+          "text": "Hospital Staff",
+          "reactions": []
+        },
+        {
+          "id": "85:544",
+          "name": "Sign out",
+          "type": "TEXT",
+          "x": 24,
+          "y": 660,
+          "w": 172,
+          "h": 16.100000381469727,
+          "text": "Sign out  →",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "4:2",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_IN_AND_OUT"
+                  },
+                  "duration": 0.20000000298023224
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": true
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "4:2",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_IN_AND_OUT"
+                    },
+                    "duration": 0.20000000298023224
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": true
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ],
+      "nestedLeftCount": [
+        {
+          "id": "85:517",
+          "count": 2
+        },
+        {
+          "id": "85:520",
+          "count": 2
+        },
+        {
+          "id": "85:523",
+          "count": 2
+        },
+        {
+          "id": "85:526",
+          "count": 2
+        },
+        {
+          "id": "85:529",
+          "count": 2
+        },
+        {
+          "id": "85:532",
+          "count": 2
+        },
+        {
+          "id": "85:535",
+          "count": 2
+        },
+        {
+          "id": "85:538",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "85:597",
+      "name": "Hospital/EmergencyRequest/Confirmation",
+      "layoutMode": "NONE",
+      "left": [
+        {
+          "id": "85:598",
+          "name": "Hospital sidebar",
+          "type": "RECTANGLE",
+          "x": 0,
+          "y": 0,
+          "w": 220,
+          "h": 1000,
+          "reactions": []
+        },
+        {
+          "id": "85:599",
+          "name": "Dugo+ logo tile",
+          "type": "RECTANGLE",
+          "x": 21,
+          "y": 17,
+          "w": 40,
+          "h": 40,
+          "reactions": []
+        },
+        {
+          "id": "85:600",
+          "name": "Dugo+ logo",
+          "type": "RECTANGLE",
+          "x": 24,
+          "y": 20,
+          "w": 34,
+          "h": 34,
+          "reactions": []
+        },
+        {
+          "id": "85:601",
+          "name": "Brand wordmark",
+          "type": "TEXT",
+          "x": 68,
+          "y": 23,
+          "w": 128,
+          "h": 29.399999618530273,
+          "text": "Dugo+",
+          "reactions": []
+        },
+        {
+          "id": "85:602",
+          "name": "Hospital page title",
+          "type": "TEXT",
+          "x": 24,
+          "y": 62,
+          "w": 172,
+          "h": 15.399999618530273,
+          "text": "dugo+ hospital",
+          "reactions": []
+        },
+        {
+          "id": "85:603",
+          "name": "Sidebar role",
+          "type": "TEXT",
+          "x": 24,
+          "y": 119,
+          "w": 172,
+          "h": 15,
+          "text": "HOSPITAL WORKSPACE",
+          "reactions": []
+        },
+        {
+          "id": "85:604",
+          "name": "Navigation/Dashboard",
+          "type": "FRAME",
+          "x": 16,
+          "y": 148,
+          "w": 188,
+          "h": 36,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "16:2",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.23999999463558197
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": true
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "16:2",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.23999999463558197
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": true
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "85:607",
+          "name": "Navigation/Blood Requests",
+          "type": "FRAME",
+          "x": 16,
+          "y": 189,
+          "w": 188,
+          "h": 36,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "54:2",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.23999999463558197
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": true
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "54:2",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.23999999463558197
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": true
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "85:610",
+          "name": "Navigation/Matching",
+          "type": "FRAME",
+          "x": 16,
+          "y": 230,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:613",
+          "name": "Navigation/Inventory",
+          "type": "FRAME",
+          "x": 16,
+          "y": 271,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:616",
+          "name": "Navigation/Donations",
+          "type": "FRAME",
+          "x": 16,
+          "y": 312,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:619",
+          "name": "Navigation/Audit Log",
+          "type": "FRAME",
+          "x": 16,
+          "y": 353,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:622",
+          "name": "Navigation/Hospital Profile",
+          "type": "FRAME",
+          "x": 16,
+          "y": 435,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:625",
+          "name": "Navigation/Location",
+          "type": "FRAME",
+          "x": 16,
+          "y": 476,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:628",
+          "name": "Sidebar footer rule",
+          "type": "RECTANGLE",
+          "x": 16,
+          "y": 568,
+          "w": 188,
+          "h": 1,
+          "reactions": []
+        },
+        {
+          "id": "85:629",
+          "name": "Signed in label",
+          "type": "TEXT",
+          "x": 24,
+          "y": 590,
+          "w": 160,
+          "h": 15,
+          "text": "SIGNED IN AS",
+          "reactions": []
+        },
+        {
+          "id": "85:630",
+          "name": "Staff profile",
+          "type": "TEXT",
+          "x": 24,
+          "y": 612,
+          "w": 172,
+          "h": 18.200000762939453,
+          "text": "Hospital Staff",
+          "reactions": []
+        },
+        {
+          "id": "85:631",
+          "name": "Sign out",
+          "type": "TEXT",
+          "x": 24,
+          "y": 660,
+          "w": 172,
+          "h": 16.100000381469727,
+          "text": "Sign out  →",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "4:2",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_IN_AND_OUT"
+                  },
+                  "duration": 0.20000000298023224
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": true
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "4:2",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_IN_AND_OUT"
+                    },
+                    "duration": 0.20000000298023224
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": true
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ],
+      "nestedLeftCount": [
+        {
+          "id": "85:604",
+          "count": 2
+        },
+        {
+          "id": "85:607",
+          "count": 2
+        },
+        {
+          "id": "85:610",
+          "count": 2
+        },
+        {
+          "id": "85:613",
+          "count": 2
+        },
+        {
+          "id": "85:616",
+          "count": 2
+        },
+        {
+          "id": "85:619",
+          "count": 2
+        },
+        {
+          "id": "85:622",
+          "count": 2
+        },
+        {
+          "id": "85:625",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "85:671",
+      "name": "Hospital/EmergencyRequest/NotificationIssue",
+      "layoutMode": "NONE",
+      "left": [
+        {
+          "id": "85:672",
+          "name": "Hospital sidebar",
+          "type": "RECTANGLE",
+          "x": 0,
+          "y": 0,
+          "w": 220,
+          "h": 1000,
+          "reactions": []
+        },
+        {
+          "id": "85:673",
+          "name": "Dugo+ logo tile",
+          "type": "RECTANGLE",
+          "x": 21,
+          "y": 17,
+          "w": 40,
+          "h": 40,
+          "reactions": []
+        },
+        {
+          "id": "85:674",
+          "name": "Dugo+ logo",
+          "type": "RECTANGLE",
+          "x": 24,
+          "y": 20,
+          "w": 34,
+          "h": 34,
+          "reactions": []
+        },
+        {
+          "id": "85:675",
+          "name": "Brand wordmark",
+          "type": "TEXT",
+          "x": 68,
+          "y": 23,
+          "w": 128,
+          "h": 29.399999618530273,
+          "text": "Dugo+",
+          "reactions": []
+        },
+        {
+          "id": "85:676",
+          "name": "Hospital page title",
+          "type": "TEXT",
+          "x": 24,
+          "y": 62,
+          "w": 172,
+          "h": 15.399999618530273,
+          "text": "dugo+ hospital",
+          "reactions": []
+        },
+        {
+          "id": "85:677",
+          "name": "Sidebar role",
+          "type": "TEXT",
+          "x": 24,
+          "y": 119,
+          "w": 172,
+          "h": 15,
+          "text": "HOSPITAL WORKSPACE",
+          "reactions": []
+        },
+        {
+          "id": "85:678",
+          "name": "Navigation/Dashboard",
+          "type": "FRAME",
+          "x": 16,
+          "y": 148,
+          "w": 188,
+          "h": 36,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "16:2",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.23999999463558197
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": true
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "16:2",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.23999999463558197
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": true
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "85:681",
+          "name": "Navigation/Blood Requests",
+          "type": "FRAME",
+          "x": 16,
+          "y": 189,
+          "w": 188,
+          "h": 36,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "54:2",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.23999999463558197
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": true
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "54:2",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.23999999463558197
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": true
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "85:684",
+          "name": "Navigation/Matching",
+          "type": "FRAME",
+          "x": 16,
+          "y": 230,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:687",
+          "name": "Navigation/Inventory",
+          "type": "FRAME",
+          "x": 16,
+          "y": 271,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:690",
+          "name": "Navigation/Donations",
+          "type": "FRAME",
+          "x": 16,
+          "y": 312,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:693",
+          "name": "Navigation/Audit Log",
+          "type": "FRAME",
+          "x": 16,
+          "y": 353,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:696",
+          "name": "Navigation/Hospital Profile",
+          "type": "FRAME",
+          "x": 16,
+          "y": 435,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:699",
+          "name": "Navigation/Location",
+          "type": "FRAME",
+          "x": 16,
+          "y": 476,
+          "w": 188,
+          "h": 36,
+          "reactions": []
+        },
+        {
+          "id": "85:702",
+          "name": "Sidebar footer rule",
+          "type": "RECTANGLE",
+          "x": 16,
+          "y": 568,
+          "w": 188,
+          "h": 1,
+          "reactions": []
+        },
+        {
+          "id": "85:703",
+          "name": "Signed in label",
+          "type": "TEXT",
+          "x": 24,
+          "y": 590,
+          "w": 160,
+          "h": 15,
+          "text": "SIGNED IN AS",
+          "reactions": []
+        },
+        {
+          "id": "85:704",
+          "name": "Staff profile",
+          "type": "TEXT",
+          "x": 24,
+          "y": 612,
+          "w": 172,
+          "h": 18.200000762939453,
+          "text": "Hospital Staff",
+          "reactions": []
+        },
+        {
+          "id": "85:705",
+          "name": "Sign out",
+          "type": "TEXT",
+          "x": 24,
+          "y": 660,
+          "w": 172,
+          "h": 16.100000381469727,
+          "text": "Sign out  →",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "4:2",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_IN_AND_OUT"
+                  },
+                  "duration": 0.20000000298023224
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": true
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "4:2",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_IN_AND_OUT"
+                    },
+                    "duration": 0.20000000298023224
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": true
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ],
+      "nestedLeftCount": [
+        {
+          "id": "85:678",
+          "count": 2
+        },
+        {
+          "id": "85:681",
+          "count": 2
+        },
+        {
+          "id": "85:684",
+          "count": 2
+        },
+        {
+          "id": "85:687",
+          "count": 2
+        },
+        {
+          "id": "85:690",
+          "count": 2
+        },
+        {
+          "id": "85:693",
+          "count": 2
+        },
+        {
+          "id": "85:696",
+          "count": 2
+        },
+        {
+          "id": "85:699",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "rows": [
+      {
+        "frameId": "85:2",
+        "instanceId": "112:11",
+        "masterId": "106:131",
+        "gaps": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "textOverflow": [],
+        "routeCount": 26,
+        "bodyRoutes": [
+          {
+            "source": "85:49",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:50",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:53",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:54",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:56",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:57",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:59",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:60",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:62",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:63",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:65",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:66",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:68",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:69",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:71",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:72",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:74",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:75",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:77",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:78",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:81",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:85",
+            "destination": "54:2",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:87",
+            "destination": "85:250",
+            "trigger": "ON_CLICK"
+          }
+        ],
+        "opacity": 1,
+        "descendantTypes": {
+          "FRAME": 7,
+          "RECTANGLE": 18,
+          "TEXT": 45,
+          "INSTANCE": 10
+        },
+        "imageNodes": [
+          {
+            "id": "I112:11;106:134",
+            "name": "Original Dugo+ mark",
+            "type": "RECTANGLE",
+            "width": 32,
+            "height": 32
+          }
+        ],
+        "signOut": {
+          "instanceId": "112:11",
+          "rootReactions": 0,
+          "buttonId": "I112:11;106:156",
+          "buttonDestinations": [
+            "4:2"
+          ]
+        }
+      },
+      {
+        "frameId": "85:89",
+        "instanceId": "112:41",
+        "masterId": "106:131",
+        "gaps": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "textOverflow": [],
+        "routeCount": 6,
+        "bodyRoutes": [
+          {
+            "source": "85:125",
+            "destination": "85:2",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:141",
+            "destination": "85:597",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:143",
+            "destination": "54:2",
+            "trigger": "ON_CLICK"
+          }
+        ],
+        "opacity": 1,
+        "descendantTypes": {
+          "FRAME": 7,
+          "RECTANGLE": 8,
+          "TEXT": 24,
+          "INSTANCE": 10
+        },
+        "imageNodes": [
+          {
+            "id": "I112:41;106:134",
+            "name": "Original Dugo+ mark",
+            "type": "RECTANGLE",
+            "width": 32,
+            "height": 32
+          }
+        ],
+        "signOut": {
+          "instanceId": "112:41",
+          "rootReactions": 0,
+          "buttonId": "I112:41;106:156",
+          "buttonDestinations": [
+            "4:2"
+          ]
+        }
+      },
+      {
+        "frameId": "85:145",
+        "instanceId": "112:71",
+        "masterId": "106:131",
+        "gaps": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "textOverflow": [],
+        "routeCount": 5,
+        "bodyRoutes": [
+          {
+            "source": "85:181",
+            "destination": "85:2",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:196",
+            "destination": "85:2",
+            "trigger": "ON_CLICK"
+          }
+        ],
+        "opacity": 1,
+        "descendantTypes": {
+          "FRAME": 6,
+          "RECTANGLE": 8,
+          "TEXT": 22,
+          "INSTANCE": 10
+        },
+        "imageNodes": [
+          {
+            "id": "I112:71;106:134",
+            "name": "Original Dugo+ mark",
+            "type": "RECTANGLE",
+            "width": 32,
+            "height": 32
+          }
+        ],
+        "signOut": {
+          "instanceId": "112:71",
+          "rootReactions": 0,
+          "buttonId": "I112:71;106:156",
+          "buttonDestinations": [
+            "4:2"
+          ]
+        }
+      },
+      {
+        "frameId": "85:198",
+        "instanceId": "112:101",
+        "masterId": "106:131",
+        "gaps": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "textOverflow": [],
+        "routeCount": 5,
+        "bodyRoutes": [
+          {
+            "source": "85:198",
+            "destination": "85:597",
+            "trigger": "AFTER_TIMEOUT"
+          },
+          {
+            "source": "85:234",
+            "destination": "85:2",
+            "trigger": "ON_CLICK"
+          }
+        ],
+        "opacity": 1,
+        "descendantTypes": {
+          "FRAME": 5,
+          "RECTANGLE": 9,
+          "TEXT": 21,
+          "INSTANCE": 10
+        },
+        "imageNodes": [
+          {
+            "id": "I112:101;106:134",
+            "name": "Original Dugo+ mark",
+            "type": "RECTANGLE",
+            "width": 32,
+            "height": 32
+          }
+        ],
+        "signOut": {
+          "instanceId": "112:101",
+          "rootReactions": 0,
+          "buttonId": "I112:101;106:156",
+          "buttonDestinations": [
+            "4:2"
+          ]
+        }
+      },
+      {
+        "frameId": "85:250",
+        "instanceId": "112:131",
+        "masterId": "106:131",
+        "gaps": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "textOverflow": [],
+        "routeCount": 26,
+        "bodyRoutes": [
+          {
+            "source": "85:286",
+            "destination": "85:2",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:300",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:301",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:305",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:306",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:309",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:310",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:312",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:313",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:315",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:316",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:318",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:319",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:321",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:322",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:324",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:325",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:327",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:328",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:330",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:331",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:332",
+            "destination": "85:2",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:334",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          }
+        ],
+        "opacity": 1,
+        "descendantTypes": {
+          "FRAME": 7,
+          "RECTANGLE": 17,
+          "TEXT": 52,
+          "INSTANCE": 10
+        },
+        "imageNodes": [
+          {
+            "id": "I112:131;106:134",
+            "name": "Original Dugo+ mark",
+            "type": "RECTANGLE",
+            "width": 32,
+            "height": 32
+          }
+        ],
+        "signOut": {
+          "instanceId": "112:131",
+          "rootReactions": 0,
+          "buttonId": "I112:131;106:156",
+          "buttonDestinations": [
+            "4:2"
+          ]
+        }
+      },
+      {
+        "frameId": "85:336",
+        "instanceId": "112:161",
+        "masterId": "106:131",
+        "gaps": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "textOverflow": [],
+        "routeCount": 6,
+        "bodyRoutes": [
+          {
+            "source": "85:416",
+            "destination": "85:510",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:419",
+            "destination": "54:2",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:421",
+            "destination": "85:423",
+            "trigger": "ON_CLICK"
+          }
+        ],
+        "opacity": 1,
+        "descendantTypes": {
+          "FRAME": 7,
+          "RECTANGLE": 18,
+          "TEXT": 45,
+          "INSTANCE": 10
+        },
+        "imageNodes": [
+          {
+            "id": "I112:161;106:134",
+            "name": "Original Dugo+ mark",
+            "type": "RECTANGLE",
+            "width": 32,
+            "height": 32
+          }
+        ],
+        "signOut": {
+          "instanceId": "112:161",
+          "rootReactions": 0,
+          "buttonId": "I112:161;106:156",
+          "buttonDestinations": [
+            "4:2"
+          ]
+        }
+      },
+      {
+        "frameId": "85:423",
+        "instanceId": "112:191",
+        "masterId": "106:131",
+        "gaps": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "textOverflow": [],
+        "routeCount": 26,
+        "bodyRoutes": [
+          {
+            "source": "85:470",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:471",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:474",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:475",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:477",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:478",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:480",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:481",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:483",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:484",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:486",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:487",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:489",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:490",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:492",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:493",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:495",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:496",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:498",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:499",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:502",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:503",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:506",
+            "destination": "54:2",
+            "trigger": "ON_CLICK"
+          }
+        ],
+        "opacity": 1,
+        "descendantTypes": {
+          "FRAME": 7,
+          "RECTANGLE": 18,
+          "TEXT": 45,
+          "INSTANCE": 10
+        },
+        "imageNodes": [
+          {
+            "id": "I112:191;106:134",
+            "name": "Original Dugo+ mark",
+            "type": "RECTANGLE",
+            "width": 32,
+            "height": 32
+          }
+        ],
+        "signOut": {
+          "instanceId": "112:191",
+          "rootReactions": 0,
+          "buttonId": "I112:191;106:156",
+          "buttonDestinations": [
+            "4:2"
+          ]
+        }
+      },
+      {
+        "frameId": "85:510",
+        "instanceId": "112:221",
+        "masterId": "106:131",
+        "gaps": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "textOverflow": [],
+        "routeCount": 27,
+        "bodyRoutes": [
+          {
+            "source": "85:557",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:558",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:561",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:562",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:564",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:565",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:567",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:568",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:570",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:571",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:573",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:574",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:576",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:577",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:579",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:580",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:582",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:583",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:585",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:586",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:589",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:590",
+            "destination": "85:336",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:593",
+            "destination": "54:2",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:595",
+            "destination": "85:198",
+            "trigger": "ON_CLICK"
+          }
+        ],
+        "opacity": 1,
+        "descendantTypes": {
+          "FRAME": 7,
+          "RECTANGLE": 18,
+          "TEXT": 46,
+          "INSTANCE": 10
+        },
+        "imageNodes": [
+          {
+            "id": "I112:221;106:134",
+            "name": "Original Dugo+ mark",
+            "type": "RECTANGLE",
+            "width": 32,
+            "height": 32
+          }
+        ],
+        "signOut": {
+          "instanceId": "112:221",
+          "rootReactions": 0,
+          "buttonId": "I112:221;106:156",
+          "buttonDestinations": [
+            "4:2"
+          ]
+        }
+      },
+      {
+        "frameId": "85:597",
+        "instanceId": "112:251",
+        "masterId": "106:131",
+        "gaps": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "textOverflow": [],
+        "routeCount": 7,
+        "bodyRoutes": [
+          {
+            "source": "85:633",
+            "destination": "85:2",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:665",
+            "destination": "85:89",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:667",
+            "destination": "85:671",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:669",
+            "destination": "54:2",
+            "trigger": "ON_CLICK"
+          }
+        ],
+        "opacity": 1,
+        "descendantTypes": {
+          "FRAME": 9,
+          "RECTANGLE": 9,
+          "TEXT": 39,
+          "INSTANCE": 10
+        },
+        "imageNodes": [
+          {
+            "id": "I112:251;106:134",
+            "name": "Original Dugo+ mark",
+            "type": "RECTANGLE",
+            "width": 32,
+            "height": 32
+          }
+        ],
+        "signOut": {
+          "instanceId": "112:251",
+          "rootReactions": 0,
+          "buttonId": "I112:251;106:156",
+          "buttonDestinations": [
+            "4:2"
+          ]
+        }
+      },
+      {
+        "frameId": "85:671",
+        "instanceId": "112:281",
+        "masterId": "106:131",
+        "gaps": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "textOverflow": [],
+        "routeCount": 6,
+        "bodyRoutes": [
+          {
+            "source": "85:707",
+            "destination": "85:2",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:730",
+            "destination": "85:198",
+            "trigger": "ON_CLICK"
+          },
+          {
+            "source": "85:732",
+            "destination": "85:597",
+            "trigger": "ON_CLICK"
+          }
+        ],
+        "opacity": 1,
+        "descendantTypes": {
+          "FRAME": 7,
+          "RECTANGLE": 12,
+          "TEXT": 27,
+          "INSTANCE": 10
+        },
+        "imageNodes": [
+          {
+            "id": "I112:281;106:134",
+            "name": "Original Dugo+ mark",
+            "type": "RECTANGLE",
+            "width": 32,
+            "height": 32
+          }
+        ],
+        "signOut": {
+          "instanceId": "112:281",
+          "rootReactions": 0,
+          "buttonId": "I112:281;106:156",
+          "buttonDestinations": [
+            "4:2"
+          ]
+        }
+      }
+    ],
+    "invalidDestinations": []
+  },
+  "signOutRepair": {
+    "mutatedNodeIds": [
+      "112:11",
+      "I112:11;106:156",
+      "112:41",
+      "I112:41;106:156",
+      "112:71",
+      "I112:71;106:156",
+      "112:101",
+      "I112:101;106:156",
+      "112:131",
+      "I112:131;106:156",
+      "112:161",
+      "I112:161;106:156",
+      "112:191",
+      "I112:191;106:156",
+      "112:221",
+      "I112:221;106:156",
+      "112:251",
+      "I112:251;106:156",
+      "112:281",
+      "I112:281;106:156"
+    ],
+    "results": [
+      {
+        "instanceId": "112:11",
+        "rootReactions": 0,
+        "buttonId": "I112:11;106:156",
+        "buttonDestinations": [
+          "4:2"
+        ]
+      },
+      {
+        "instanceId": "112:41",
+        "rootReactions": 0,
+        "buttonId": "I112:41;106:156",
+        "buttonDestinations": [
+          "4:2"
+        ]
+      },
+      {
+        "instanceId": "112:71",
+        "rootReactions": 0,
+        "buttonId": "I112:71;106:156",
+        "buttonDestinations": [
+          "4:2"
+        ]
+      },
+      {
+        "instanceId": "112:101",
+        "rootReactions": 0,
+        "buttonId": "I112:101;106:156",
+        "buttonDestinations": [
+          "4:2"
+        ]
+      },
+      {
+        "instanceId": "112:131",
+        "rootReactions": 0,
+        "buttonId": "I112:131;106:156",
+        "buttonDestinations": [
+          "4:2"
+        ]
+      },
+      {
+        "instanceId": "112:161",
+        "rootReactions": 0,
+        "buttonId": "I112:161;106:156",
+        "buttonDestinations": [
+          "4:2"
+        ]
+      },
+      {
+        "instanceId": "112:191",
+        "rootReactions": 0,
+        "buttonId": "I112:191;106:156",
+        "buttonDestinations": [
+          "4:2"
+        ]
+      },
+      {
+        "instanceId": "112:221",
+        "rootReactions": 0,
+        "buttonId": "I112:221;106:156",
+        "buttonDestinations": [
+          "4:2"
+        ]
+      },
+      {
+        "instanceId": "112:251",
+        "rootReactions": 0,
+        "buttonId": "I112:251;106:156",
+        "buttonDestinations": [
+          "4:2"
+        ]
+      },
+      {
+        "instanceId": "112:281",
+        "rootReactions": 0,
+        "buttonId": "I112:281;106:156",
+        "buttonDestinations": [
+          "4:2"
+        ]
+      }
+    ]
+  },
+  "prototypeWalkthrough": {
+    "testedStart": "85:2",
+    "passed": {
+      "Dashboard": "16:2",
+      "Blood Requests": "54:2",
+      "Sign out": "4:2"
+    },
+    "fullFormJourneyTested": false
+  },
+  "figmaCalls": {
+    "total": 6,
+    "create_session": 1,
+    "use_figma": 5,
+    "failedReadIncluded": 1
+  }
+}

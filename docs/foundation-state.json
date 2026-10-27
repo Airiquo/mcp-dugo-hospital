@@ -1,0 +1,191 @@
+{
+  "sessionId": "15bc5b19-3349-4317-ab1a-52e2bf1f382d",
+  "phase": "foundation-complete",
+  "createdNodeIds": [
+    "105:2"
+  ],
+  "pageId": "105:2",
+  "collections": {
+    "primitive": {
+      "id": "VariableCollectionId:105:3",
+      "mode": "105:0"
+    },
+    "color": {
+      "id": "VariableCollectionId:105:4",
+      "mode": "105:1"
+    },
+    "metric": {
+      "id": "VariableCollectionId:105:5",
+      "mode": "105:2"
+    },
+    "type": {
+      "id": "VariableCollectionId:105:6",
+      "mode": "105:3"
+    }
+  },
+  "variables": {
+    "primitive/primary": "VariableID:105:7",
+    "primitive/primaryPressed": "VariableID:105:8",
+    "primitive/accent": "VariableID:105:9",
+    "primitive/background": "VariableID:105:10",
+    "primitive/surface": "VariableID:105:11",
+    "primitive/raised": "VariableID:105:12",
+    "primitive/field": "VariableID:105:13",
+    "primitive/text": "VariableID:105:14",
+    "primitive/muted": "VariableID:105:15",
+    "primitive/disabled": "VariableID:105:16",
+    "primitive/disabledSurface": "VariableID:105:17",
+    "primitive/white": "VariableID:105:18",
+    "primitive/success": "VariableID:105:19",
+    "primitive/warning": "VariableID:105:20",
+    "primitive/error": "VariableID:105:21",
+    "primitive/border": "VariableID:105:22",
+    "primitive/transparent": "VariableID:105:23",
+    "primitive/selected": "VariableID:105:24",
+    "primitive/shadow1": "VariableID:105:25",
+    "primitive/shadow2": "VariableID:105:26",
+    "primitive/logo": "VariableID:105:27",
+    "color/action/primary": "VariableID:105:28",
+    "color/action/pressed": "VariableID:105:29",
+    "color/action/secondary": "VariableID:105:30",
+    "color/background": "VariableID:105:31",
+    "color/surface": "VariableID:105:32",
+    "color/surface/raised": "VariableID:105:33",
+    "color/field": "VariableID:105:34",
+    "color/text/primary": "VariableID:105:35",
+    "color/text/secondary": "VariableID:105:36",
+    "color/text/disabled": "VariableID:105:37",
+    "color/text/on-primary": "VariableID:105:38",
+    "color/disabled": "VariableID:105:39",
+    "color/success": "VariableID:105:40",
+    "color/warning": "VariableID:105:41",
+    "color/error": "VariableID:105:42",
+    "color/border": "VariableID:105:43",
+    "color/focus": "VariableID:105:44",
+    "color/transparent": "VariableID:105:45",
+    "color/selected": "VariableID:105:46",
+    "color/shadow/1": "VariableID:105:47",
+    "color/shadow/2": "VariableID:105:48",
+    "color/logo": "VariableID:105:49",
+    "space/0": "VariableID:105:50",
+    "space/4": "VariableID:105:51",
+    "space/8": "VariableID:105:52",
+    "space/12": "VariableID:105:53",
+    "space/16": "VariableID:105:54",
+    "space/24": "VariableID:105:55",
+    "space/32": "VariableID:105:56",
+    "space/48": "VariableID:105:57",
+    "radius/0": "VariableID:105:58",
+    "radius/8": "VariableID:105:59",
+    "radius/12": "VariableID:105:60",
+    "radius/16": "VariableID:105:61",
+    "radius/22": "VariableID:105:62",
+    "radius/999": "VariableID:105:63",
+    "size/buttonSmall": "VariableID:105:64",
+    "size/buttonMedium": "VariableID:105:65",
+    "size/input": "VariableID:105:66",
+    "size/inputWidth": "VariableID:105:67",
+    "size/cardWidth": "VariableID:105:68",
+    "size/headerWidth": "VariableID:105:69",
+    "size/headerHeight": "VariableID:105:70",
+    "size/sidebarWidth": "VariableID:105:71",
+    "size/sidebarItemWidth": "VariableID:105:72",
+    "size/sidebarItemHeight": "VariableID:105:73",
+    "size/avatarSmall": "VariableID:105:74",
+    "size/avatarMedium": "VariableID:105:75",
+    "size/avatarLarge": "VariableID:105:76",
+    "size/listWidth": "VariableID:105:77",
+    "size/statusWidth": "VariableID:105:78",
+    "size/logo": "VariableID:105:79",
+    "size/zero": "VariableID:105:80",
+    "size/stroke": "VariableID:105:81",
+    "size/focusStroke": "VariableID:105:82",
+    "elevation/zero": "VariableID:105:83",
+    "elevation/blur1": "VariableID:105:84",
+    "elevation/blur2": "VariableID:105:85",
+    "elevation/y1": "VariableID:105:86",
+    "elevation/y2": "VariableID:105:87",
+    "font/family": "VariableID:105:88",
+    "font/Light": "VariableID:105:89",
+    "font/Regular": "VariableID:105:90",
+    "font/Medium": "VariableID:105:91",
+    "type/Display/size": "VariableID:105:92",
+    "type/Display/line": "VariableID:105:93",
+    "type/H1/size": "VariableID:105:95",
+    "type/H1/line": "VariableID:105:96",
+    "type/H2/size": "VariableID:105:98",
+    "type/H2/line": "VariableID:105:99",
+    "type/H3/size": "VariableID:105:101",
+    "type/H3/line": "VariableID:105:102",
+    "type/Body/size": "VariableID:105:104",
+    "type/Body/line": "VariableID:105:105",
+    "type/Body Small/size": "VariableID:105:107",
+    "type/Body Small/line": "VariableID:105:108",
+    "type/Caption/size": "VariableID:105:110",
+    "type/Caption/line": "VariableID:105:111",
+    "type/Button/size": "VariableID:105:113",
+    "type/Button/line": "VariableID:105:114"
+  },
+  "textStyles": {
+    "Display": "S:214dac444e183cd9c978f81efdb560b11a6139b1,",
+    "H1": "S:52bc26793601f58d1fd2fa4bbf010725c14eb9e4,",
+    "H2": "S:6b32ba7b4d759592b9e2fc21fe5a2f1a21722c1b,",
+    "H3": "S:7ae7f0c935001babbc1c08f28b6f7622fc3fbca6,",
+    "Body": "S:6519745d702a5cdcca8ed46cc68b3f9a36d9875f,",
+    "Body Small": "S:b6d09ddc0ac8f57b946ab30cbf8885417b17f59e,",
+    "Caption": "S:98bc6be19f5052055e9b99fd849dd4e58368cb55,",
+    "Button": "S:7dba281206d58c25003225a0405f8f206a5abd3b,"
+  },
+  "effectStyles": {
+    "1": "S:cb2a81cbbff7d3738ece9f915c0e5cd25313ea8f,",
+    "2": "S:e72481c95f2e66fe5de0bd7613664f81e16990f7,"
+  },
+  "logoFills": [
+    {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FIT",
+      "scalingFactor": 1,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "imageHash": "256abd82edbcea2c86edeac3416d6616662989fc"
+    }
+  ],
+  "counts": {
+    "variables": 101,
+    "textStyles": 8,
+    "effectStyles": 2
+  },
+  "darkModeOnly": true,
+  "validationFile": "foundation-validation.json",
+  "handoffFile": "foundation-handoff.md",
+  "boardId": "106:172",
+  "existingScreensMigrated": false,
+  "sidebarMigration": {
+    "status": "all-existing-hospital-sidebars-complete",
+    "states": 27,
+    "record": "remaining-sidebar-migration.md"
+  }
+}

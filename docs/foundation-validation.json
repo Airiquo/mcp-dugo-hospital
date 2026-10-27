@@ -1,0 +1,163 @@
+{
+  "mutatedNodeIds": [
+    "106:38",
+    "106:59",
+    "106:68",
+    "106:75",
+    "106:82",
+    "106:89",
+    "106:114",
+    "106:130",
+    "106:158",
+    "106:171"
+  ],
+  "pageId": "105:2",
+  "sets": [
+    {
+      "id": "106:38",
+      "name": "Cmp/Action/Button",
+      "variants": 18,
+      "properties": [
+        "Label#106:0",
+        "Style",
+        "Size",
+        "State"
+      ]
+    },
+    {
+      "id": "106:59",
+      "name": "Cmp/Form/TextInput",
+      "variants": 4,
+      "properties": [
+        "Label#106:19",
+        "Value#106:24",
+        "Helper#106:29",
+        "Error message#107:0",
+        "State"
+      ]
+    },
+    {
+      "id": "106:68",
+      "name": "Cmp/Feedback/Badge",
+      "variants": 4,
+      "properties": [
+        "Label#106:34",
+        "Tone"
+      ]
+    },
+    {
+      "id": "106:75",
+      "name": "Cmp/Identity/Avatar",
+      "variants": 3,
+      "properties": [
+        "Initials#106:39",
+        "Size"
+      ]
+    },
+    {
+      "id": "106:82",
+      "name": "Cmp/Surface/Card",
+      "variants": 2,
+      "properties": [
+        "Title#106:43",
+        "Description#106:46",
+        "Elevation"
+      ]
+    },
+    {
+      "id": "106:89",
+      "name": "Cmp/Navigation/SidebarItem",
+      "variants": 3,
+      "properties": [
+        "Label#106:49",
+        "State"
+      ]
+    },
+    {
+      "id": "106:114",
+      "name": "Cmp/Data/ListItem",
+      "variants": 3,
+      "properties": [
+        "Title#106:53",
+        "Description#106:57",
+        "State"
+      ]
+    },
+    {
+      "id": "106:130",
+      "name": "Cmp/Blood/RequestStatus",
+      "variants": 3,
+      "properties": [
+        "Status"
+      ]
+    },
+    {
+      "id": "106:158",
+      "name": "Cmp/Navigation/Sidebar",
+      "variants": 1,
+      "properties": [
+        "State"
+      ]
+    },
+    {
+      "id": "106:171",
+      "name": "Cmp/Navigation/Header",
+      "variants": 1,
+      "properties": [
+        "State"
+      ]
+    }
+  ],
+  "counts": {
+    "variables": 101,
+    "sets": 10,
+    "variants": 42,
+    "textStyles": 8,
+    "effectStyles": 2
+  },
+  "bindingIssues": [],
+  "sidebarItems": [
+    {
+      "id": "106:138",
+      "y": 0,
+      "height": 44
+    },
+    {
+      "id": "106:140",
+      "y": 48,
+      "height": 44
+    },
+    {
+      "id": "106:142",
+      "y": 96,
+      "height": 44
+    },
+    {
+      "id": "106:144",
+      "y": 144,
+      "height": 44
+    },
+    {
+      "id": "106:146",
+      "y": 192,
+      "height": 44
+    },
+    {
+      "id": "106:148",
+      "y": 240,
+      "height": 44
+    },
+    {
+      "id": "106:150",
+      "y": 288,
+      "height": 44
+    },
+    {
+      "id": "106:152",
+      "y": 336,
+      "height": 44
+    }
+  ],
+  "invalidVariableScopes": [],
+  "missingWebSyntax": []
+}
